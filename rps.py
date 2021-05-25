@@ -117,7 +117,7 @@ class Game:
         self.p2 = p2
 
     def rounds_number(self):
-        self.rounds = valid_number_input("How many rounds do you want to play?"
+        self.rounds = valid_number_input("How many rounds do you want to play? "
                                          "(enter 0 to play until you quit)\n")
 
     def play_round(self):
